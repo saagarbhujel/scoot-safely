@@ -1,0 +1,402 @@
+:root{
+    --main-color: #845ef7;
+    --hover-color:#9775fa;
+    --primary-font-family: 'Barlow Semi Condensed', sans-serif;
+    --secondary-font-family: 'Roboto', sans-serif;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200&family=Roboto:wght@100;300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-family: var(--secondary-font-family);
+    
+}
+
+.nav-items{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.nav-items a:hover{
+   color: black;
+}
+
+.nav-items li{
+    list-style: none;
+    
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+    
+}
+
+.home{
+    height: 85vh;
+    background-image: url(/images/360_F_316581152_fRZlFTyoN3fWIoetsG5A0qu2k1UUdXP9.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    }
+
+.home-items{
+    background-color: white;
+    opacity: 0.85;  
+    max-width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 30px 30px 0;
+    
+
+ }
+
+ .news{
+    width: 95%;
+    padding-left: 60px;
+    font-size: 25px;
+    line-height: 1.8;
+ }
+
+ .btn{
+    padding: 10px 10px 10px 10px;
+    background-color: var(--main-color);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 40%;
+    border-radius: 8px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 15px;
+ }
+
+ .btn:hover{
+   background-color: var(--hover-color);
+ }
+
+ .purpose{
+   display: grid;
+   place-content: center;
+   padding-bottom: 3%;
+ }
+
+ .purpose h1{
+    display: grid;
+    place-content: center;
+    padding-top: 25px;
+    height: 15vh;
+    font-size: 2.5em;
+    font-family: var(--primary-font-family);
+    color: var(--main-color);
+    
+ }
+.purpose-lists{
+    padding-top: 20px;
+}
+
+
+
+ .purpose h3{
+    font-size: 30px;
+    font-family: var(--secondary-font-family);
+    color: black;
+    letter-spacing: 1.8px;
+    padding-top: 10px;
+ }
+
+ .purpose-lists i{
+  color: grey;
+ }
+
+ .purpose-lists i:hover {
+   color: black;
+}
+
+ .purpose-lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25vw;
+    margin-top: 20px;
+    
+ }
+
+ .educate a{
+    text-decoration: none;
+ }
+
+ .educate i{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+ }
+
+
+ .inform a{
+    text-decoration: none;
+ }
+
+ .inform h3{
+    padding-left: 12px;
+ }
+
+ .inform i{
+    display: flex;
+    justify-content: center;
+ }
+
+ .prevent a{
+    text-decoration: none;
+ }
+
+ .prevent i{
+    display: flex;
+    justify-content: center;
+ }
+
+ .studies{
+    background-color: antiquewhite;
+    padding-top: 25px;
+    padding-bottom: 25px;
+   
+ }
+
+ .studies h1{
+    display: flex;
+    justify-content: center;
+ }
+
+ .txt{
+      width: 60%;
+     margin-top: 20px;
+     line-height: 1.5;
+     margin-left: 250px;
+     font-size: 24px;
+     
+ }
+
+ .btn-1{
+     padding: 10px 10px 10px 10px;
+    background-color: var(--main-color);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 70%;
+    border-radius: 8px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 15px;
+ }
+
+ .btn-2:hover{
+   background-color: var(--hover-color);
+ }
+
+ .btn-1:hover{
+   background-color: var(--hover-color);
+}
+
+
+ .contact{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-bottom: 50px;
+ }
+
+ .form{
+   display: block;
+ }
+
+ #name{
+    padding-left: 9vw;
+   padding-right: 9vw;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-top: 5px;
+   border: solid var(--main-color);
+   border-radius: 10px;
+   text-align: center;
+ }
+
+ 
+
+ .subscribe{
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+   place-content: center;
+   margin-top: 50px;
+ }
+
+#e-mail{
+   padding-left: 9vw;
+   padding-right: 9vw;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-top: 5px;
+   border: solid var(--main-color);
+   border-radius: 10px;
+   text-align: center;
+   
+
+}
+
+.subscribe h1{
+   display: flex;
+   justify-content: center;
+   color: var(--main-color);
+}
+
+#subs{
+   display: grid;
+   place-content: center;
+   place-items: center; 
+   
+    
+}
+
+.btn-2{
+   padding: 10px 10px 10px 10px;
+    background-color: var(--main-color);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
+.join{
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr;
+   margin-top: 50px;
+   
+}
+
+.join h1{
+   display: flex;
+   justify-content: center;
+   color: var(--main-color);
+}
+
+.small-heading{
+   max-width: 30vw;
+   margin-left: 11vw;
+  
+   
+}
+
+#join{
+    display: grid;
+   place-content: center;
+   place-items: center; 
+}
+
+#join a {
+   margin-top: 40px;
+}
+
+.footer{
+   display: grid;
+   grid-template-columns: 1fr 150px 1fr;
+   background-color: var(--main-color);
+   padding-top: 50px;
+   padding-bottom: 50px;
+   color: white;
+}
+
+.safety{
+   display: grid;
+   place-items: center;
+   grid-template-rows: 30px 1fr;
+}
+
+.para{
+   margin-inline-start: 30px;
+   max-width: 30vw;
+   
+}
+
+.menu{
+      display: grid;
+    grid-template-rows: 30px 1fr;
+   margin-top: 10px;
+}
+
+.large-heading{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* margin-top: 19px; */
+
+  
+}
+
+.menu-list{
+margin-top: 20px;
+}
+
+.menu-list a:hover{
+   color: black;
+}
+
+
+.lists-1 li{
+   padding-top: 5px;
+   
+}
+.lists-1 li{
+ list-style: none;
+}
+
+.lists-1 a{
+   color: white;
+   text-decoration: none;
+   
+}
+.follow{
+   display: grid;
+   place-items: center;
+   grid-template-rows: 50px 1fr 10px;
+}
+
+.icons a{
+   font-size: 48px;
+   color: white;
+   margin-right: 10px;
+}
+
+.icons :hover{
+   color: black;
+}
